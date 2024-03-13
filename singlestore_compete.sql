@@ -1,5 +1,5 @@
 -- set the query vector
-set @query_vec = (select v from vecs where id = 2251799813701581);
+set @query_vec = (select v from vecs where id = 2251799813701581;
 
 -- building the hybrid search
 with fts as(
